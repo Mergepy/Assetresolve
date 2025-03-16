@@ -22,8 +22,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message .= "</body></html>";
 
     // Email headers for HTML email
-    $headers = "From: bonchasx@gmail.com\r\n";  // Change to your domain email
-    $headers .= "Reply-To: bonchasx@gmail.com\r\n";
+    $headers = "From: assetresolve744@gmail.com\r\n";  // Change to your domain email
+    $headers .= "Reply-To: assetresolve744@gmail.com\r\n";
     $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
     // Send the email
